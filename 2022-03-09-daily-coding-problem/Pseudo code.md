@@ -1,3 +1,13 @@
+# Second attempt
+## (01:57, March 30, 2022 WAT)
+
+I noticed an error in my first attempt...well, _two_ errors, actually:
+1. _The function only works with lists containing integers greater than 0_ e.g. if the given list is `[-10, 15, 3, 7]`, the function will throw an error when it's trying to find index `-10`.
+2. _The array `B` will not be initialized to the right size if there are negative values present._
+e.g. if the given list is `[-1, 0, 2]` and the `k` we're checking for is `1`, `B` will be initialized to size `1`, which is wrong (and if the `k` even happens to be negative, say `-1`, it won't even initialize ***at all***).
+
+Solution: _use_ ***NAMED*** _lists/vectors (or objects)_. This way, the indices become strings, so we don't have to worry about negative values, and we also don't have to worry about initializing with any size at the onset.
+
 # First attempt
 ## (22:11, March 29, 2022 WAT)
 
