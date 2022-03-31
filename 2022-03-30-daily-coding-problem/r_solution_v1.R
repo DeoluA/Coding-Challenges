@@ -1,7 +1,7 @@
 # solution.R
 
 ## FIRST ATTEMPT ##
-	solution_v1 = function(A) {
+	solution = function(A) {
 		#  get the total product
 		total_product = 1;
 		# 'outcome' will be the new vector

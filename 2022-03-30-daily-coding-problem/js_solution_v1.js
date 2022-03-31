@@ -3,7 +3,7 @@
 
 /* FIRST ATTEMPT */
 	// "A" is the array
-	const solution_v1 = (A) => {
+	const solution = (A) => {
 		//  get the total product
 		let total_product = 1;
 		// 'outcome' will be the new array
@@ -30,7 +30,7 @@
 	console.log(`\nRunning for array ${first}`);
 
 	start = (new Date()).getTime();
-	console.log(`Outcome returned: ${solution_v1(first)}`);
+	console.log(`Outcome returned: ${solution(first)}`);
 	stop = (new Date()).getTime();
 	console.log(`Total time: ${(stop - start)/1000}s`);
 
@@ -38,6 +38,6 @@
 	console.log(`\nRunning for array ${first}`);
 
 	start = (new Date()).getTime();
-	console.log(`Outcome returned: ${solution_v1(first)}`);
+	console.log(`Outcome returned: ${solution(first)}`);
 	stop = (new Date()).getTime();
 	console.log(`Total time: ${(stop - start)/1000}s`);
