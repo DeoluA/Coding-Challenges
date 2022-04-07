@@ -1,3 +1,10 @@
+# Second attempt
+
+Afterwards, I tried to clean up the garbage, debugging and fixing what could be done.
+The more I tried, the more I realised: _garbage can't be fixed._ 
+
+Back to the drawing board!
+
 # First attempt
 
 I did pretty much garbage, lol.
