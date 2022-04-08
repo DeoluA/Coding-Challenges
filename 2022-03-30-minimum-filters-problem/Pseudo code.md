@@ -1,3 +1,11 @@
+# Fourth attempt
+
+Noticed a problem with the third attempt: _it will misbehave if duplicates exist in the given array._
+
+e.g. the array `[10, 10, 10]` _should_ return `3` (i.e. one filter at each location); instead it will return `4`.
+
+Fix: I like my "array sort" function, but _*sniff_* I might have to let it go. Will replace with an object that simply tracks the limits, and iterates downward.
+
 # Third attempt
 
 1. Get the limits of the array (minimum, maximum, value just below maximum, etc...)
