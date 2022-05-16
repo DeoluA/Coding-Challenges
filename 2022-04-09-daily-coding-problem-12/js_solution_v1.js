@@ -35,7 +35,6 @@
 				Object.keys(sorted_k).forEach((eachK) => {
 					// add em up!
 					if(current[N-eachK]){
-						console.log(eachK, N-eachK, current)
 						current[N] += current[N-eachK];
 					};
 				});
