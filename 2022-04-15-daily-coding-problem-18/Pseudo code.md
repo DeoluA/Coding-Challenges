@@ -1,3 +1,10 @@
+# Second attempt
+
+Noticed an error with my `R` function: the first check (`if the current value is greater than the greatest value in the list, add it in`), will cause some errors down the line. We can't be omitting values!
+
+So instead, what I'll do is use the _character vector_ to track the largest value.
+
+
 # First attempt
 
 1. I'll use an `Object` to keep track of the highest value for subset.
