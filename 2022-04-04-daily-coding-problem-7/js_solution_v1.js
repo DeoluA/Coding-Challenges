@@ -34,9 +34,7 @@
 	    		// initiate recursion
 	    		// if the str already exists as a letter, that's one way already:
 	    		let new_entry;
-	    		console.log("out here", str);
 	    		if(parseInt(str) <= letters.length) {
-	    			console.log("in here", str);
 	    			new_entry = 1;
 	    			// in which case, we only need one recursion to add to it
 	    			new_entry += ways(str.substring(0, str.length-1));
